@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WWWORKBOOK</title>
+<style>
+    body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%; 
+}
+    html {
+        background-image: linear-gradient(to bottom, rgb(245, 245, 245), rgb(183, 229, 229));
+    }
+    body {
+    font-family: "Montserrat", Times, serif;
+  }
+  
 
+body {
+  
+  cursor: url('fishcursor.svg'), auto;
+}
+</style>
+    
+<style>
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 94, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 0.5fr 3fr;
+  gap: 10px;
+  padding: 10px;
+}
+.container div {
+
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  column-count: 4;
+  text-align: left;
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+  align-items: center;
+}
+.container div.menu {
+  grid-area: menu;
+}
+.container div.content {
+  grid-area: content;
+  
+}
+.container div.footer {
+  grid-area: footer;
+  text-align: right;  
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 97%;
+  
+  color: white;
+  text-align: right;
+}
+<div class="footer">
+  <p>Footer</p>
+</div>
+</style>
+</head>
+<body>
+    <body>
+
+
+</body>
+<div class="container">
+  <div class="header">
+       <a href="index.html">
+      <h2 style="font-weight: bold; font-size: 12px; color: rgb(255, 102, 0);">WWWORKBOOK</h2>
+      </a>
+    <ul style="font-weight: normal; font-size: 12px; color: rgb(255, 102, 0); list-style-type: disc;">
+    <li>Interactive media</li>
+    </ul>
+      <img src="images/fishicon.png" alt="fishicon" width="25">
+     <ul style="font-weight: normal; font-size: 12px; color: rgb(255, 102, 0); list-style-type: circle;">
+    <li>Experiments</li>
+    </ul>
+  </div>
+  <div class="menu">
+    <a style="font-size: 16px;" href="casestudies.html">Case Studies</a>
+    <br>
+    <br>
+    <a style="font-size: 16px;" href="#">Experiments</a>
+    <br>
+    <br>
+    <a style="font-size: 16px;" href="#">Toolbox</a>
+    <br>
+    <br>
+    <a style="font-size: 16px;" href="#">Workshops</a>
+</div>
+  <div class="content">
+      <h3 style="font-weight: normal; font-size: 24px; color: rgb(255, 102, 0);">EXPERIMENTS</h3>
+      <p>
+      </p>
+      
+  </div>
+  <div class="footer"><h4 style="font-weight: normal; font-size: 14px; color: rgb(255, 102, 0)">BECKY TANG</h4></div>
+</div>
+
+
+
+</body>
+</html>
